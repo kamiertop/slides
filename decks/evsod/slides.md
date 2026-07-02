@@ -9,7 +9,6 @@ class: text-center
 drawings:
   persist: false
 transition: slide-left
-
 comark: true
 aspectRatio: 16/9
 canvasWidth: 1280
@@ -19,7 +18,6 @@ colorSchema: "light"
 [ICCV 2025](https://iccv.thecvf.com/virtual/2025/poster/2540)
 
 ---
-
 layout: section
 transition: fade
 ---
@@ -29,7 +27,6 @@ transition: fade
 <Outline/>
 
 ---
-
 layout: section
 transition: slide-down
 ---
@@ -63,7 +60,6 @@ transition: slide-down
 <Remark text="x,y表示像素坐标，t表示时间戳，p表示亮度变化的正负"/>
 
 ---
-
 transition: slide-up
 ---
 
@@ -170,7 +166,6 @@ keys: evs_norm, ev_loc, ev
 </div>
 
 ---
-
 layout: section
 ---
 
@@ -217,14 +212,12 @@ const w = String.raw`
 </div>
 
 ---
-
 src: ./experiment.md
 transition: slide-right
 layout: two-cols
 ---
 
 ---
-
 layout: statement
 ---
 
@@ -233,7 +226,6 @@ layout: statement
 事件相机仅能捕捉运动信息，所以当**目标静止或移动缓慢时**，事件相机不会输出任何信息，从而导致检测失败
 
 ---
-
 layout: end
 transition: fade-out
 ---
