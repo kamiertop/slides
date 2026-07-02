@@ -8,12 +8,9 @@ class: text-center
 # https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
 
 comark: true
-# duration of the presentation
-duration: 35min
 aspectRatio: 16/9
 canvasWidth: 1280
 colorSchema: "light"
@@ -22,6 +19,7 @@ colorSchema: "light"
 [ICCV 2025](https://iccv.thecvf.com/virtual/2025/poster/2540)
 
 ---
+
 layout: section
 transition: fade
 ---
@@ -31,6 +29,7 @@ transition: fade
 <Outline/>
 
 ---
+
 layout: section
 transition: slide-down
 ---
@@ -42,7 +41,6 @@ transition: slide-down
 - 因为无人机尺寸极小，背景复杂，所以小目标检测在**反无人机**任务中极具挑战
 - 传统的**帧式相机**帧率低、动态范围有限、数据冗余，不适配反无人机小目标检测
 - **事件相机**：`microsecond temporal resolution`、`high dynamic range`
-
 
 ## 方案
 
@@ -65,6 +63,7 @@ transition: slide-down
 <Remark text="x,y表示像素坐标，t表示时间戳，p表示亮度变化的正负"/>
 
 ---
+
 transition: slide-up
 ---
 
@@ -73,7 +72,6 @@ transition: slide-up
 - 捕获动作：前后移动、横向移动、升降以及复杂组合
 - 环境：正常、强光、弱光以及多种背景
 - 147段数据序列精细标注，超过2030万个目标事件
-
 
 <figure>
   <figcaption>Event Camera vs Frame Camera</figcaption>
@@ -171,9 +169,8 @@ keys: evs_norm, ev_loc, ev
      </ul>
 </div>
 
-
-
 ---
+
 layout: section
 ---
 
@@ -220,13 +217,14 @@ const w = String.raw`
 </div>
 
 ---
+
 src: ./experiment.md
 transition: slide-right
 layout: two-cols
 ---
 
-
 ---
+
 layout: statement
 ---
 
@@ -235,6 +233,7 @@ layout: statement
 事件相机仅能捕捉运动信息，所以当**目标静止或移动缓慢时**，事件相机不会输出任何信息，从而导致检测失败
 
 ---
+
 layout: end
 transition: fade-out
 ---

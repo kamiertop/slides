@@ -106,6 +106,11 @@
     <td style="padding: 1px 3px;">复现结果-12</td>
     <td style="text-align: center; color: red; padding: 1px 3px;">62.46</td><td style="text-align: center; color: red; padding: 1px 3px;">73.18</td><td style="text-align: center; color: red; padding: 1px 3px;">82.84</td><td style="text-align: center; padding: 1px 3px;">3.31</td><td style="text-align: center; padding: 1px 3px;">4090</td>
   </tr>
+  <tr style="background: #44000022;">
+    <td style="padding: 1px 3px;">损失函数改进</td>
+    <td style="text-align: center; color: red; padding: 1px 3px;">62.82</td><td style="text-align: center; color: red; padding: 1px 3px;">66.39</td><td style="text-align: center; color: red; padding: 1px 3px;">80.12</td><td style="text-align: center; padding: 1px 3px;">0.82</td><td style="text-align: center; padding: 1px 3px;">4090</td>
+  </tr>
+
 </tbody>
 </table>
 
